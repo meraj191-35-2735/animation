@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Merriweather&family=Playfair+Display&family=Roboto&family=Roboto+Condensed&family=Roboto+Slab:wght@100&family=Source+Sans+Pro&display=swap');
+body {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+* {
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 40px;
+    position: relative;
+    color: transparent;
+}
+
+.banner-title::before {
+    content: "Shamsad Meraj";
+    position: absolute;
+    color: aqua;
+    animation: anime 3s linear 0.1s infinite;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: aqua;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid aqua;
+}
+
+button:hover {
+    background-color: transparent;
+    color: aqua;
+}
+
+.banner {
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.about {
+    flex: 1;
+}
+
+.photo-banner {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes anime {
+    0% {
+        content: "S|";
+    }
+    5% {
+        content: "Sh|";
+    }
+    10% {
+        content: "Sha|";
+    }
+    15% {
+        content: "Sham|";
+    }
+    20% {
+        content: "Shams|";
+    }
+    25% {
+        content: "Shamsa|";
+    }
+    30% {
+        content: "Shamsad|";
+    }
+    35% {
+        content: "Shamsad |";
+    }
+    40% {
+        content: "Shamsad M|";
+    }
+    45% {
+        content: "Shamsad Me|";
+    }
+    50% {
+        content: "Shamsad Mer|";
+    }
+    55% {
+        content: "Shamsad Mera|";
+    }
+    60% {
+        content: "Shamsad Meraj|";
+    }
+    63%,
+    75% {
+        content: "Shamsad Meraj|";
+    }
+    77% {
+        content: "Shamsad Mera|";
+    }
+    79% {
+        content: "Shamsad Mer|";
+    }
+    81% {
+        content: "Shamsad Me|";
+    }
+    83% {
+        content: "Shamsad M|";
+    }
+    85% {
+        content: "Shamsad |";
+    }
+    87% {
+        content: "Shamsad|";
+    }
+    89% {
+        content: "Shamsa|";
+    }
+    91% {
+        content: "Shams|";
+    }
+    93% {
+        content: "Sham|";
+    }
+    95% {
+        content: "Sha|";
+    }
+    97% {
+        content: "Sh|";
+    }
+    99% {
+        content: "S|";
+    }
+    100% {
+        content: "S|";
+    }
+}
