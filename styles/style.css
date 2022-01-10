@@ -44,6 +44,7 @@ button:hover {
 
 .banner img {
     width: 100%;
+    border: 10px solid aqua;
 }
 
 .about {
